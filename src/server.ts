@@ -1,9 +1,9 @@
-import express from 'express';
+import express from 'express'
 
-const app = express();
+const app = express()
 
 app.get('/', (req, res) => {
-    return res.send('olaa');
-});
+  return res.send('olaa')
+})
 
-app.listen(process.env.PORT || 5555);
+app.listen(process.env.PORT || 5555)
